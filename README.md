@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![HenryLogo](./Assets//logoBannerHenry.png)
 
 # **🧑‍💻 PREP COURSE | HENRY 👩‍💻**
@@ -102,3 +103,7 @@ git push
 Recuerda que todos estos comandos son necesarios. Si tienes alguna duda, ¡te invitamos a que repases estos comandos en el Prep Course!
 
 Encontrarás toda la explicación dentro de: "**`Módulo 2 | Creación de repositorio y primer commit`**".
+=======
+# RepositorioHenry
+prepcourse del modulo uno el ejercicio 1
+>>>>>>> e67e49e5db4f82ca8738bab57281350ee0d560f7
