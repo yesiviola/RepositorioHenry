@@ -20,7 +20,7 @@ function mayoriaDeEdad(edad) {
    if (edad >= 18){
       return 'Allowed';
       }else{
-         return'Not Allowed';
+         return'Not allowed';
    }
 }
 
@@ -49,14 +49,13 @@ function saludo(idioma) {
    // Tu código:
    switch (idioma) {
       case 'aleman':
-         return "Guten tag";
-         case "mandarin":
-            return "Ni Hao";
-            case "ingles":
-               return ("hello")
-               default :
-               return ("hola")
-
+         return "Guten Tag!";
+      case "mandarin":
+         return "Ni Hao!";
+      case "ingles":
+         return "Hello!";
+      default:
+         return "Hola!";
    }
 }
 
@@ -69,19 +68,19 @@ function colors(color) {
    // Si no es ninguno de esos colores           --> "Color not found".
    // IMPORTANTE: utilizar el statement SWITCH.
    // Tu código:
-   switch (color){
-      case ('blue'):
-         return("Este es azul");
-         case "red":
-            return('este es rojo');
-            case "green":
-               return 'esta verde';
-               case "orange":
-                  return'esta anaranja';
-                  default:
-                     return 'no se encontro el color';
-   }
-}
+   switch (color) {
+      case "blue":
+        return "This is blue";
+      case "red":
+        return "This is red";
+      case "green":
+        return "This is green";
+      case "orange":
+        return "This is orange";
+      default:
+        return "Color not found";
+    }
+  }
 
 function esDiezOCinco(num) {
    // Retornar true si "num" es 10 o 5.
@@ -116,7 +115,7 @@ function fizzBuzz(num) {
    if (num % 3 === 0 && num % 5===0){
       return "fizzbuzz";
    } else if (num % 3 ===0){
-      return 'fiz';
+      return 'fizz';
       }else if (num % 5 ===0) {
          return'buzz';
       }else{
