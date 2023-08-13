@@ -21,8 +21,8 @@ const {
    mayorACien,
    breakStatement,
    continueStatement,
-} = require('../homework');
-
+  } = require('../homework');
+ 
 describe('JAVASCRIPT III', function () {
    describe('devolverPrimerElemento(array)', function () {
       it('Debe retornar el primer elemento del arreglo', function () {
