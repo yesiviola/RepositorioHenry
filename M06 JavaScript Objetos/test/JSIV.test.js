@@ -14,7 +14,7 @@ const {
    pasarUsuarioAPremium,
    sumarLikesDeUsuario,
    agregarMetodoCalculoDescuento,
-} = require('../homework');
+ } = require('../homework');
 
 describe('JAVASCRIPT IV', function () {
    describe('crearGato(nombre, edad)', function () {
